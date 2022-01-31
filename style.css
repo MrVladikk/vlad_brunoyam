@@ -1,0 +1,58 @@
+body {
+  font-family: "roboto", "sons-serif";
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+.border {
+  border: 5px solid red;
+}
+.div1 {
+  background-color: pink;
+}
+h2 {
+  color: blue;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+p::first-letter {
+  color: blue;
+}
+.div_table {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.th1 {
+  background-color: pink;
+}
+.th2 {
+  background-color: gray;
+}
+.td1 {
+  background-color: pink;
+}
+.td2 {
+  background-color: gray;
+}
+.td3 {
+  background-color: pink;
+}
+.td4 {
+  background-color: gray;
+}
+.td5 {
+  background-color: pink;
+}
+.td6 {
+  background-color: gray;
+}
+.td7 {
+  background-color: pink;
+}
+.td8 {
+  background-color: gray;
+}
