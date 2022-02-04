@@ -1,64 +1,72 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway"
-      rel="stylesheet"
-    />
     <title>Document</title>
   </head>
+
   <body>
     <header>
-      <div class="container">
-        <div class="brand">Project Name</div>
-        <nav>
-          <ul class="menu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+      <div class="logo-container">
+        <h1>Project Name</h1>
       </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#">About <i class="fab fa-amazon"></i></a>
+          </li>
+          <li>
+            <a href="#">Team</a>
+          </li>
+          <li>
+            <a href="#">News</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
     <div class="jumbotron">
-      <div class="container">
-        <h1>Landing Page Template</h1>
-        <a
-          href="http://www.idg.net.ua/blog/uchebnik-css/ispolzovanie-css/praktika-delaem-landing-page"
-          class="button"
-          >Go back to the lesson</a
-        >
-      </div>
+      <h1>Landing Page Template</h1>
+      <button class="button">Go to the lesson</button>
     </div>
-
+    <!--services-->
     <div class="services">
-      <div class="container">
-        <h2>Services</h2>
-        <div class="service">
-          <i class="fa fa-tachometer fa-3x" aria-hidden="true"></i>
+      <h2>Services</h2>
+      <div class="f">
+        <div class="s">
+          <i class="fas fa-tachometer-alt"></i>
           <p>
             phoncus ut, imperdiet vel venenatis vitae justo ullam dictum felis
             eu pede mollis pretium massa.
           </p>
         </div>
-        <div class="service">
-          <i class="fa fa-calendar fa-3x" aria-hidden="true"></i>
+        <div class="s">
+          <i class="far fa-calendar-alt"></i>
           <p>
             phoncus ut, imperdiet vel venenatis vitae justo ullam dictum felis
             eu pede mollis pretium massa.
           </p>
         </div>
-        <div class="service">
-          <i class="fa fa-bar-chart fa-3x" aria-hidden="true"></i>
+        <div class="s">
+          <i class="far fa-chart-bar"></i>
           <p>
             phoncus ut, imperdiet vel venenatis vitae justo ullam dictum felis
             eu pede mollis pretium massa.
@@ -66,25 +74,26 @@
         </div>
       </div>
     </div>
-
     <div class="blog">
-      <div class="container">
-        <h2>Blog</h2>
-        <div class="post">
-          <img src="img1.jpg" alt="" />
+      <h2>Blog</h2>
+      <div class="post">
+        <img src="img1.jpg" alt="" />
+        <div class="post_content">
           <h3>Socis natoque magnis dis valem parturient...</h3>
-          <p class="date">01.01.2017</p>
-          <p>
+          <p class="data">01.01.2017</p>
+          <p class="text">
             Lenean commodo ligula eget dolor, aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus
             donec quam felis ultricies nec pellentesque eu.
           </p>
         </div>
-        <div class="post">
-          <img src="img2.jpg" alt="" />
+      </div>
+      <div class="post">
+        <img src="img2.jpg" alt="" />
+        <div class="post_content">
           <h3>Socis natoque magnis dis valem parturient...</h3>
-          <p class="date">31.12.2016</p>
-          <p>
+          <p class="data">01.01.2017</p>
+          <p class="text">
             Lenean commodo ligula eget dolor, aenean massa. Cum sociis natoque
             penatibus et magnis dis parturient montes, nascetur ridiculus mus
             donec quam felis ultricies nec pellentesque eu.
@@ -92,7 +101,6 @@
         </div>
       </div>
     </div>
-
     <footer>
       <div class="container">
         <div class="brand">Project Name</div>

@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  height: 80px;
+}
+
+.logo-container h1 {
+  color: #59abe3;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.jumbotron {
+  display: flex;
+  background-image: url(https://amidf.github.io/brunoyam-project/homeworks/lesson-9/img/jumbotron.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: 250px;
+  text-align: center;
+  clear: both;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.c {
+  width: 90%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  color: white;
+}
+.button {
+  background-color: palevioletred;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.s {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.f {
+  display: flex;
+  justify-content: center;
+  color: #979797;
+}
+.fas,
+.far {
+  font-size: 3em;
+}
+.blog,
+.services {
+  padding: 40px;
+}
+.post {
+  display: flex;
+  padding: 40px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.post_content {
+  padding: 15px;
+}
+.blog,
+.services {
+  max-width: 90%;
+  margin-left: 5%;
+}
+footer {
+  background-color: #38404b;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.brand,
+.menu,
+.copyright {
+  padding: 20px;
+}
+.brand,
+.menu {
+  color: #bcc9dd;
+}
+.brand {
+  font-size: 30px;
+}
+footer.menu li a {
+  color: #bcc9dd;
+}
+.copyright {
+  color: #eee;
+}
+nav a {
+  color: #bcc9dd;
+}
