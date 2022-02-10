@@ -1,0 +1,324 @@
+h1 {
+  text-align: center;
+  opacity: 0.8;
+  font-family: "Open Sans";
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 600;
+  color: #000000;
+}
+
+h1 span {
+  color: #fc6744;
+}
+
+p {
+  text-align: center;
+  opacity: 0.7;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #414141;
+}
+
+.containercards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 109px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card1 {
+  width: 262px;
+  height: 263px;
+  background-color: #4eb2f7;
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.2);
+          box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 31px;
+  margin-left: 149px;
+}
+
+.card1 .fa-magnet {
+  opacity: 0.8;
+  font-size: 50px;
+  line-height: 8px;
+  letter-spacing: 0.01em;
+  color: white;
+  margin-top: 53px;
+}
+
+.card1 h2 {
+  opacity: 0.9;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 23px;
+}
+
+.card1 p {
+  opacity: 0.74;
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.card1 button {
+  width: 228px;
+  height: 55px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 6px 14px 0px rgba(20, 20, 21, 0.09);
+          box-shadow: 1px 6px 14px 0px rgba(20, 20, 21, 0.09);
+  border-radius: 27px;
+}
+
+.card1 button p {
+  opacity: 0.8;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.card2 {
+  width: 262px;
+  height: 263px;
+  background-color: #c049f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 31px;
+}
+
+.card2 .fa-bug {
+  opacity: 0.8;
+  font-size: 50px;
+  line-height: 8px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 53px;
+}
+
+.card2 h2 {
+  opacity: 0.9;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 23px;
+}
+
+.card2 p {
+  opacity: 0.74;
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.card2 .button {
+  margin-top: 20px;
+}
+
+.card2 button {
+  width: 228px;
+  height: 55px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+          box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+  border-radius: 27px;
+}
+
+.card2 button p {
+  opacity: 0.8;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.card3 {
+  width: 262px;
+  height: 263px;
+  background-color: #817eff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 31px;
+}
+
+.card3 .fa-gears {
+  opacity: 0.8;
+  font-size: 50px;
+  line-height: 8px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 53px;
+}
+
+.card3 h2 {
+  opacity: 0.9;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 23px;
+}
+
+.card3 p {
+  opacity: 0.74;
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+
+.card3 button {
+  width: 228px;
+  height: 55px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+          box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+  border-radius: 27px;
+}
+
+.card3 button p {
+  opacity: 0.8;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.card4 {
+  width: 262px;
+  height: 263px;
+  background-color: #f74770;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 151px;
+}
+
+.card4 .fa-camera-retro {
+  opacity: 0.8;
+  font-size: 46.4px;
+  line-height: 7px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 53px;
+}
+
+.card4 h2 {
+  opacity: 0.9;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 23px;
+}
+
+.card4 p {
+  opacity: 0.74;
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+
+.card4 button {
+  width: 228px;
+  height: 55px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+          box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+  border-radius: 27px;
+}
+
+.card4 button p {
+  opacity: 0.74;
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.container {
+  margin-top: 142px;
+  margin-left: 521px;
+  margin-right: 521px;
+}
+/*# sourceMappingURL=style.css.map */
